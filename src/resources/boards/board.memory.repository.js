@@ -7,20 +7,13 @@ const getAll = async () => {
 
 const get = async id => {
   const board = await DB.getEntity(TABLE_NAME, id);
-  console.log('id board', id);
-  console.log('board', board);
-
   if (!board) {
     return null;
   }
-
   return board;
 };
 
 const remove = async id => {
-  // if(!(await DB.removeEntity(TABLE_NAME, id))) {
-  //   throw new Error();
-  // }
   return DB.removeEntity(TABLE_NAME, id);
 };
 

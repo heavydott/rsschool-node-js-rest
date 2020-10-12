@@ -20,7 +20,9 @@ const db = {
       );
     }
   },
-  fixTasksStructure: () => {}
+  fixTasksStructure: task => {
+    console.log(task);
+  }
 };
 
 /* (() => {
@@ -49,6 +51,9 @@ const getEntity = (tableName, id) => {
       `The DB data is damaged. Table: ${tableName}, Entity ID: ${id}`
     );
     throw new Error();
+  } else if (entities.length === 0) {
+    console.error(`There is no entity. Table: ${tableName}, Entity ID: ${id}`);
+    throw new Error();
   }
 
   return entities[0];
@@ -56,7 +61,7 @@ const getEntity = (tableName, id) => {
 
 const removeEntity = (tableName, id) => {
   const entity = getEntity(tableName, id);
-  console.log('DB', db);
+  // console.log('DB', db);
   if (entity) {
     db[`fix${tableName}Structure`](entity);
     const index = db[tableName].indexOf(entity);
@@ -67,8 +72,9 @@ const removeEntity = (tableName, id) => {
     //     ? db[tableName].slice(index + 1)
     //     : [])
     // ];
+    return entity;
   }
-  return entity;
+  return null;
 };
 
 const saveEntity = (tableName, entity) => {

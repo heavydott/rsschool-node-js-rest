@@ -8,15 +8,18 @@ router.route('/').get(async (req, res) => {
 });
 
 router.route('/:id').get(async (req, res) => {
-  const board = await boardsService.get(req.params.id);
-  if (board) {
+  try {
+    const board = await boardsService.get(req.params.id);
     res.status(200).send(Board.toResponse(board));
+  } catch (e) {
+    console.error(e);
+    res.status(404).end('Not found');
   }
 });
 
 router.route('/:id').delete(async (req, res) => {
-  const board = await boardsService.remove(req.params.id);
-  res.status(204).send(Board.toResponse(board));
+  await boardsService.remove(req.params.id);
+  res.status(204).send('ok');
 });
 
 router.route('/').post(async (req, res) => {

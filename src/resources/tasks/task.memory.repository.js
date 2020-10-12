@@ -11,36 +11,16 @@ const getAll = async boardId => {
 
 const get = async (id, boardId) => {
   const task = await DB.getEntity(TABLE_NAME, id);
-
   if (!task) {
     return null;
   } else if (task.boardId !== boardId) {
     return null;
   }
-
   return task;
 };
 
-const remove = async (id, boardId) => {
-  console.log(boardId);
-  if (!(await DB.removeEntity(TABLE_NAME, id))) {
-    throw new Error();
-  }
-  /* const task = await DB.getEntity(TABLE_NAME, id);
-
-    if (!task && task.boardId !== boardId) {
-        throw new Error();
-    }
-
-    const task1 = await DB.removeEntity(TABLE_NAME, id);
-
-    if(task === task1) {
-        console.log('yes');
-    } else {
-        console.log('no');
-    }
-
-    return task1;*/
+const remove = async id => {
+  return DB.removeEntity(TABLE_NAME, id);
 };
 
 const save = async (task, boardId) => {

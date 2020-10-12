@@ -8,25 +8,21 @@ router.route('/').get(async (req, res) => {
 });
 
 router.route('/:id').get(async (req, res) => {
-  const task = await tasksService.get(req.params.id, req.params.boardId);
-  if (task) {
-    res.status(200).send(Task.toResponse(task));
-  }
-});
-
-router.route('/:id').delete(async (req, res) => {
-  console.log('delete task ', req.params.id);
   try {
-    await tasksService.remove(req.params.id, req.params.boardId);
-    res.status(204).send('ok');
+    const task = await tasksService.get(req.params.id, req.params.boardId);
+    res.status(200).send(Task.toResponse(task));
   } catch (e) {
     console.error(e);
     res.status(404).end('Not found');
   }
 });
 
+router.route('/:id').delete(async (req, res) => {
+  await tasksService.remove(req.params.id);
+  res.status(204).send('ok');
+});
+
 router.route('/').post(async (req, res) => {
-  console.log('req.params = ', req.params);
   const task = await tasksService.save(
     Task.fromRequest(req.body),
     req.params.boardId

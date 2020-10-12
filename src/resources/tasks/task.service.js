@@ -4,7 +4,7 @@ const getAll = boardId => tasksRepo.getAll(boardId);
 
 const get = (id, boardId) => tasksRepo.get(id, boardId);
 
-const remove = (id, boardId) => tasksRepo.remove(id, boardId);
+const remove = id => tasksRepo.remove(id);
 
 const save = (task, boardId) => tasksRepo.save(task, boardId);
 
