@@ -1,5 +1,6 @@
 const DB = require('../../utils/inMemoryDb');
 const TABLE_NAME = 'Users';
+const AppError = '../../utils/app-error';
 
 const getAll = async () => {
   return DB.getAllEntities(TABLE_NAME);
@@ -9,7 +10,7 @@ const get = async id => {
   const user = await DB.getEntity(TABLE_NAME, id);
 
   if (!user) {
-    throw new Error();
+    throw new AppError(`User with id=${id} not found`);
   }
 
   return user;

@@ -1,6 +1,7 @@
-// const User = require('../resources/users/user.model');
-// const Board = require('../resources/boards/board.model');
-// const Task = require('../resources/tasks/task.model');
+const User = require('../resources/users/user.model');
+const Board = require('../resources/boards/board.model');
+const Task = require('../resources/tasks/task.model');
+const AppError = require('./app-error');
 
 const db = {
   Users: [],
@@ -25,7 +26,7 @@ const db = {
   }
 };
 
-/* (() => {
+(() => {
   for (let i = 0; i < 8; i++) {
     db.Users.push(new User());
   }
@@ -35,7 +36,7 @@ const db = {
     new Task({ boardId: board.id, userId: db.Users[0].id }),
     new Task({ boardId: board.id, userId: db.Users[0].id })
   );
-})();*/
+})();
 
 const getAllEntities = tableName => {
   return db[tableName].filter(entity => entity);
@@ -47,13 +48,15 @@ const getEntity = (tableName, id) => {
     .filter(entity => entity.id === id);
 
   if (entities.length > 1) {
-    console.error(
+    throw new AppError(
+      500,
       `The DB data is damaged. Table: ${tableName}, Entity ID: ${id}`
     );
-    throw new Error();
   } else if (entities.length === 0) {
-    console.error(`There is no entity. Table: ${tableName}, Entity ID: ${id}`);
-    throw new Error();
+    throw new AppError(
+      404,
+      `There is no entity. Table: ${tableName}, Entity ID: ${id}`
+    );
   }
 
   return entities[0];
@@ -61,17 +64,10 @@ const getEntity = (tableName, id) => {
 
 const removeEntity = (tableName, id) => {
   const entity = getEntity(tableName, id);
-  // console.log('DB', db);
   if (entity) {
     db[`fix${tableName}Structure`](entity);
     const index = db[tableName].indexOf(entity);
     db[tableName].splice(index, 1);
-    // db[tableName] = [
-    //   ...db[tableName].slice(0, index),
-    //   ...(db[tableName].length > index + 1
-    //     ? db[tableName].slice(index + 1)
-    //     : [])
-    // ];
     return entity;
   }
   return null;
