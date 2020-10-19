@@ -32,9 +32,6 @@ const update = async (id, boardId, task) => {
   task.id = id;
   task.boardId = boardId;
   const updatedTask = DB.updateEntity(TABLE_NAME, id, task);
-  if (!updatedTask) {
-    throw new Error();
-  }
   return updatedTask;
 };
 

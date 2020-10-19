@@ -24,9 +24,6 @@ const save = async board => {
 const update = async (id, board) => {
   board.id = id;
   const updatedBoard = DB.updateEntity(TABLE_NAME, id, board);
-  if (!updatedBoard) {
-    throw new Error();
-  }
   return updatedBoard;
 };
 

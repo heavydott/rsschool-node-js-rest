@@ -32,8 +32,8 @@ const db = {
   const board = new Board();
   db.Boards.push(board);
   db.Tasks.push(
-    new Task({ boardId: board.id, userId: db.Users[0].id }),
-    new Task({ boardId: board.id, userId: db.Users[0].id })
+      new Task({ boardId: board.id, userId: db.Users[0].id }),
+      new Task({ boardId: board.id, userId: db.Users[0].id })
   );
 })();*/
 
@@ -47,13 +47,13 @@ const getEntity = (tableName, id) => {
     .filter(entity => entity.id === id);
 
   if (entities.length > 1) {
-    console.error(
+    throw new Error(
       `The DB data is damaged. Table: ${tableName}, Entity ID: ${id}`
     );
-    throw new Error();
   } else if (entities.length === 0) {
-    console.error(`There is no entity. Table: ${tableName}, Entity ID: ${id}`);
-    throw new Error();
+    throw new Error(
+      `There is no entity. Table: ${tableName}, Entity ID: ${id}`
+    );
   }
 
   return entities[0];
@@ -61,20 +61,15 @@ const getEntity = (tableName, id) => {
 
 const removeEntity = (tableName, id) => {
   const entity = getEntity(tableName, id);
-  // console.log('DB', db);
-  if (entity) {
-    db[`fix${tableName}Structure`](entity);
-    const index = db[tableName].indexOf(entity);
-    db[tableName].splice(index, 1);
-    // db[tableName] = [
-    //   ...db[tableName].slice(0, index),
-    //   ...(db[tableName].length > index + 1
-    //     ? db[tableName].slice(index + 1)
-    //     : [])
-    // ];
-    return entity;
+  if (!entity) {
+    throw new Error(
+      `There is no entity. Table: ${tableName}, Entity ID: ${id}`
+    );
   }
-  return null;
+  db[`fix${tableName}Structure`](entity);
+  const index = db[tableName].indexOf(entity);
+  db[tableName].splice(index, 1);
+  return entity;
 };
 
 const saveEntity = (tableName, entity) => {
@@ -82,14 +77,17 @@ const saveEntity = (tableName, entity) => {
     db[tableName].push(entity);
     return getEntity(tableName, entity.id);
   }
-  throw new Error();
+  throw new Error('There is no entity');
 };
 
 const updateEntity = async (tableName, id, entity) => {
   const oldEntity = getEntity(tableName, id);
   if (oldEntity) {
-    db[tableName][db[tableName].indexOf(oldEntity)] = { ...entity };
+    throw new Error(
+      `There is no entity. Table: ${tableName}, Entity ID: ${id}`
+    );
   }
+  db[tableName][db[tableName].indexOf(oldEntity)] = { ...entity };
   return getEntity(tableName, id);
 };
 

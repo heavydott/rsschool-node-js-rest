@@ -8,9 +8,13 @@ router.route('/').get(async (req, res) => {
 });
 
 router.route('/:id').get(async (req, res) => {
-  console.log(req.params);
-  const user = await usersService.get(req.params.id);
-  res.status(200).send(User.toResponse(user));
+  try {
+    const user = await usersService.get(req.params.id);
+    res.status(200).send(User.toResponse(user));
+  } catch (e) {
+    res.status(404).send('Not found');
+    throw e;
+  }
 });
 
 router.route('/:id').delete(async (req, res) => {
