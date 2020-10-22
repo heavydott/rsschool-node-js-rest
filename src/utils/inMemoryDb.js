@@ -82,7 +82,7 @@ const saveEntity = (tableName, entity) => {
 
 const updateEntity = async (tableName, id, entity) => {
   const oldEntity = getEntity(tableName, id);
-  if (oldEntity) {
+  if (!oldEntity) {
     throw new Error(
       `There is no entity. Table: ${tableName}, Entity ID: ${id}`
     );

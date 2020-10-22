@@ -402,3 +402,87 @@ Error: Oops!
 [10/23/2020, 12:04:14 AM] [31merror[39m: query = {}
 [10/23/2020, 12:04:14 AM] [31merror[39m: stack = undefined
 [10/23/2020, 12:04:14 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:12:16 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:12:16 AM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/23/2020, 12:12:16 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:12:16 AM] [31merror[39m: Error: There is no entity. Table: Boards, Entity ID: 48fc2830-b74a-4eae-9e03-3b37ebd48887
+    at Object.updateEntity (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\utils\inMemoryDb.js:86:11)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\boards\board.memory.repository.js:26:27)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\boards\board.service.js:11:42)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\boards\board.router.js:31:37
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:354:14)
+[10/23/2020, 12:12:16 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:12:16 AM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/23/2020, 12:12:16 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:12:16 AM] [31merror[39m: Error: There is no entity. Table: Users, Entity ID: 793a644b-809e-4566-b22b-0a5ea9e20daa
+    at Object.updateEntity (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\utils\inMemoryDb.js:86:11)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\users\user.memory.repository.js:23:26)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\users\user.service.js:14:40)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\users\user.router.js:32:37
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:354:14)
+[10/23/2020, 12:12:16 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:12:16 AM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/23/2020, 12:12:16 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:12:16 AM] [31merror[39m: Error: There is no entity. Table: Tasks, Entity ID: fc5a1fb4-ab19-4829-b46b-469d35479f8c
+    at Object.updateEntity (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\utils\inMemoryDb.js:86:11)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\tasks\task.memory.repository.js:34:26)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\tasks\task.service.js:11:49)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\tasks\task.router.js:34:35
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:354:14)
+[10/23/2020, 12:13:47 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:13:47 AM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/23/2020, 12:13:47 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:13:47 AM] [31merror[39m: Error: There is no entity. Table: Users, Entity ID: a6fcadc1-6a0f-4aa5-86de-ed09244398f8
+    at Object.updateEntity (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\utils\inMemoryDb.js:86:11)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\users\user.memory.repository.js:23:26)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\users\user.service.js:14:40)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\users\user.router.js:32:37
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:354:14)
+[10/23/2020, 12:13:47 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:13:47 AM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/23/2020, 12:13:47 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:13:47 AM] [31merror[39m: Error: There is no entity. Table: Boards, Entity ID: aed469da-4460-4416-8da3-d500ebbe13d3
+    at Object.updateEntity (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\utils\inMemoryDb.js:86:11)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\boards\board.memory.repository.js:26:27)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\boards\board.service.js:11:42)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\boards\board.router.js:31:37
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:354:14)
+[10/23/2020, 12:13:47 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:13:47 AM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/23/2020, 12:13:47 AM] [31merror[39m: ----------------------------
+[10/23/2020, 12:13:47 AM] [31merror[39m: Error: There is no entity. Table: Tasks, Entity ID: 8a8826d6-4c4f-473e-8aaf-6f25f8382e10
+    at Object.updateEntity (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\utils\inMemoryDb.js:86:11)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\tasks\task.memory.repository.js:34:26)
+    at Object.update (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\tasks\task.service.js:11:49)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\src\resources\tasks\task.router.js:34:35
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\h_master\WebstormProjects\rsschool-node-js-rest\node_modules\express\lib\router\index.js:354:14)
