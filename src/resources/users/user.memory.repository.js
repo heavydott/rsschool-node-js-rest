@@ -21,6 +21,9 @@ const save = async user => {
 const update = async (id, user) => {
   user.id = id;
   const updatedUser = DB.updateEntity(TABLE_NAME, id, user);
+  if (!updatedUser) {
+    throw new Error();
+  }
   return updatedUser;
 };
 

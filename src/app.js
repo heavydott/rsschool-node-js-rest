@@ -46,9 +46,6 @@ app.use('/boards', boardRouter);
 boardRouter.use('/:boardId/tasks', taskRouter);
 
 // another error handler
-app.all('*', (req, res) => {
-  const err = new Error();
-  errorHandler(err, req, res);
-});
+app.use(errorHandler);
 
 module.exports = app;

@@ -1,13 +1,13 @@
 const { INTERNAL_SERVER_ERROR, getStatusText } = require('http-status-codes');
 const { errorLog } = require('./logging');
 
-const errorHandler = async (err, req, res) => {
+const errorHandler = async (err, req, res, next) => {
   if (err) {
-    err.status = getStatusText(INTERNAL_SERVER_ERROR);
-    err.statusCode = INTERNAL_SERVER_ERROR;
-    errorLog(err, req, res);
-    res.status(err.statusCode).send(err.status);
+    const status = err.status ? err.status : INTERNAL_SERVER_ERROR;
+    errorLog(JSON.stringify({ status, message: getStatusText(status) }), req);
+    res.status(status).end(getStatusText(status));
   }
+  next();
 };
 
 module.exports = { errorHandler };
