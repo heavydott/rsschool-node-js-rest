@@ -1,3 +1,4 @@
+const { CustomRestError } = require('../errors/not-found-error');
 // const User = require('../resources/users/user.model');
 // const Board = require('../resources/boards/board.model');
 // const Task = require('../resources/tasks/task.model');
@@ -47,13 +48,13 @@ const getEntity = (tableName, id) => {
     .filter(entity => entity.id === id);
 
   if (entities.length > 1) {
-    throw new Error(
-      `The DB data is damaged. Table: ${tableName}, Entity ID: ${id}`
-    );
+    throw new CustomRestError({
+      message: `The DB data is damaged. Table: ${tableName}, Entity ID: ${id}`
+    });
   } else if (entities.length === 0) {
-    throw new Error(
-      `There is no entity. Table: ${tableName}, Entity ID: ${id}`
-    );
+    throw new CustomRestError({
+      message: `There is no entity. Table: ${tableName}, Entity ID: ${id}`
+    });
   }
 
   return entities[0];
@@ -62,9 +63,9 @@ const getEntity = (tableName, id) => {
 const removeEntity = (tableName, id) => {
   const entity = getEntity(tableName, id);
   if (!entity) {
-    throw new Error(
-      `There is no entity. Table: ${tableName}, Entity ID: ${id}`
-    );
+    throw new CustomRestError({
+      message: `There is no entity. Table: ${tableName}, Entity ID: ${id}`
+    });
   }
   db[`fix${tableName}Structure`](entity);
   const index = db[tableName].indexOf(entity);
@@ -77,15 +78,15 @@ const saveEntity = (tableName, entity) => {
     db[tableName].push(entity);
     return getEntity(tableName, entity.id);
   }
-  throw new Error('There is no entity');
+  throw new CustomRestError({ message: 'There is no entity' });
 };
 
 const updateEntity = async (tableName, id, entity) => {
   const oldEntity = getEntity(tableName, id);
   if (!oldEntity) {
-    throw new Error(
-      `There is no entity. Table: ${tableName}, Entity ID: ${id}`
-    );
+    throw new CustomRestError({
+      message: `There is no entity. Table: ${tableName}, Entity ID: ${id}`
+    });
   }
   db[tableName][db[tableName].indexOf(oldEntity)] = { ...entity };
   return getEntity(tableName, id);

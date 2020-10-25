@@ -1,8 +1,10 @@
-class NotFoundError extends Error {
-  constructor(message) {
+const { NOT_FOUND } = require('http-status-codes');
+
+class CustomRestError extends Error {
+  constructor({ status = NOT_FOUND, message }) {
     super(message);
-    this.name = 'NotFoundError';
+    this.status = status;
   }
 }
 
-module.exports = NotFoundError;
+module.exports = { CustomRestError };
