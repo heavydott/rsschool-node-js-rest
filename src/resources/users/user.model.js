@@ -1,6 +1,17 @@
-const uuid = require('uuid');
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+// const uuid = require('uuid');
 
-class User {
+const User = new Schema(
+  {
+    name: String,
+    login: String,
+    password: String
+  },
+  { collection: 'users' }
+);
+
+/* class UserC {
   constructor({
     id = uuid(),
     name = 'USER',
@@ -21,6 +32,6 @@ class User {
   static fromRequest(body) {
     return new User(body);
   }
-}
+}*/
 
-module.exports = User;
+module.exports = mongoose.model('users', User);

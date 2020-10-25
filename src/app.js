@@ -3,6 +3,8 @@ const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
 const bodyParser = require('body-parser');
+const cors = require('cors');
+const helmet = require('helmet');
 
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
@@ -14,6 +16,8 @@ const { infoLog } = require('./utils/logging');
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
+app.use(helmet());
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 

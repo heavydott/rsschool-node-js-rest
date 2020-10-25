@@ -1,0 +1,846 @@
+[10/25/2020, 8:37:29 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:37:29 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:37:29 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:37:29 PM] [31merror[39m: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:651:11)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:37:45 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:37:45 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:37:45 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:37:45 PM] [31merror[39m: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:651:11)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:37:49 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:37:49 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:37:49 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:37:49 PM] [31merror[39m: Error: URI does not have hostname, domain name and tld
+    at module.exports (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\url_parser.js:31:21)
+    at deprecated (internal/util.js:89:15)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:37:56 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:37:56 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:37:56 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:37:56 PM] [31merror[39m: Error: URI does not have hostname, domain name and tld
+    at module.exports (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\url_parser.js:31:21)
+    at deprecated (internal/util.js:89:15)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:38:15 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:15 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:38:15 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:15 PM] [31merror[39m: Error: URI does not have hostname, domain name and tld
+    at module.exports (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\url_parser.js:31:21)
+    at deprecated (internal/util.js:89:15)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:38:25 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:25 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:38:25 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:25 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:38:34 PM] [31merror[39m: uncaughtException: useUnifiedTopology is not defined
+ReferenceError: useUnifiedTopology is not defined
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:7:3)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:38:34 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:34 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:38:34 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:34 PM] [31merror[39m: ReferenceError: useUnifiedTopology is not defined
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:7:3)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:38:40 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:40 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:38:40 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:40 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:38:48 PM] [31merror[39m: uncaughtException: useFind is not defined
+ReferenceError: useFind is not defined
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:8:3)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:38:48 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:48 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:38:48 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:48 PM] [31merror[39m: ReferenceError: useFind is not defined
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:8:3)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:38:58 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:58 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:38:58 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:38:58 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:39:08 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:08 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:39:08 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:08 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:39:17 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:17 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:39:17 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:17 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:39:20 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:20 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:39:20 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:20 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:39:30 PM] [31merror[39m: uncaughtException: The "listener" argument must be of type function. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type function. Received undefined
+    at checkListener (events.js:110:11)
+    at _addListener (events.js:347:3)
+    at NativeConnection.addListener (events.js:405:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:13:4)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:39:30 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:30 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:39:30 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:30 PM] [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type function. Received undefined
+    at checkListener (events.js:110:11)
+    at _addListener (events.js:347:3)
+    at NativeConnection.addListener (events.js:405:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:13:4)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:39:30 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:30 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:39:30 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:30 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:39:33 PM] [31merror[39m: uncaughtException: The "listener" argument must be of type function. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type function. Received undefined
+    at checkListener (events.js:110:11)
+    at _addListener (events.js:347:3)
+    at NativeConnection.addListener (events.js:405:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:13:4)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:39:33 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:33 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:39:33 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:33 PM] [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type function. Received undefined
+    at checkListener (events.js:110:11)
+    at _addListener (events.js:347:3)
+    at NativeConnection.addListener (events.js:405:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:13:4)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:39:33 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:33 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:39:33 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:39:33 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:5:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:42:24 PM] [31merror[39m: uncaughtException: The "listener" argument must be of type function. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type function. Received undefined
+    at checkListener (events.js:110:11)
+    at NativeConnection.once (events.js:434:3)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:15:4)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:42:24 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:24 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:42:24 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:24 PM] [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type function. Received undefined
+    at checkListener (events.js:110:11)
+    at NativeConnection.once (events.js:434:3)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:15:4)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:42:24 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:42:24 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:24 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:42:24 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:24 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:42:24 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:24 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:42:24 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:24 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:42:32 PM] [31merror[39m: uncaughtException: The "listener" argument must be of type function. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type function. Received undefined
+    at checkListener (events.js:110:11)
+    at NativeConnection.once (events.js:434:3)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:15:4)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:42:32 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:32 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:42:32 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:32 PM] [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type function. Received undefined
+    at checkListener (events.js:110:11)
+    at NativeConnection.once (events.js:434:3)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:15:4)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12)
+    at internal/main/run_main_module.js:17:47
+[10/25/2020, 8:42:32 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:42:32 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:32 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:42:32 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:32 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:42:32 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:32 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:42:32 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:32 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:42:39 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:42:39 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:39 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:42:39 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:39 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:42:39 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:39 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:42:39 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:39 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:42:55 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:42:55 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:55 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:42:55 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:55 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:42:55 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:55 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:42:55 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:42:55 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:43:14 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:43:14 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:43:14 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:43:14 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:43:14 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:43:14 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:43:14 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:43:14 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:43:14 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:43:42 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:43:42 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:43:42 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:43:42 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:43:42 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:43:42 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:43:42 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:43:42 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:43:42 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:44:13 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:13 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:13 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:44:13 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:13 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:13 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:13 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:44:13 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:13 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:44:21 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:21 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:21 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:44:21 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:21 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:21 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:21 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:44:21 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:21 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:44:30 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:30 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:30 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:44:30 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:30 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:30 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:30 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:44:30 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:30 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:44:36 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:36 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:36 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:44:36 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:36 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:36 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:36 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:44:36 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:36 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:44:53 PM] [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:53 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:53 PM] [31merror[39m: CRITICAL - UNCAUGHT EXCEPTION!
+[10/25/2020, 8:44:53 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:53 PM] [31merror[39m: TypeError: logger.error is not a function
+    at NativeConnection.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:14:29)
+    at NativeConnection.emit (events.js:314:20)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:809:37
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[10/25/2020, 8:44:53 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:53 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:44:53 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:44:53 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:45:38 PM] [31merror[39m: MongoDB connection error
+[10/25/2020, 8:45:38 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:45:38 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:45:38 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:45:38 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:45:57 PM] [31merror[39m: MongoDB connection error
+[10/25/2020, 8:45:57 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:45:57 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:45:57 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:45:57 PM] [31merror[39m: MongoParseError: URI does not have hostname, domain name and tld
+    at parseSrvConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:45:21)
+    at parseConnectionString (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\core\uri_parser.js:587:12)
+    at connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\operations\connect.js:282:3)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:223:5
+    at maybePromise (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\utils.js:662:3)
+    at MongoClient.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\mongo_client.js:219:10)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:788:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\connection.js:785:19)
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:342:10
+    at C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose.connect (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongoose\lib\index.js:341:10)
+    at Object.<anonymous> (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\src\server.js:6:10)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[10/25/2020, 8:57:44 PM] [31merror[39m: MongoDB connection error
+[10/25/2020, 8:57:44 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:57:44 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:57:44 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:57:44 PM] [31merror[39m: MongoError: bad auth : Authentication failed.
+    at MessageStream.messageHandler (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\cmap\connection.js:268:20)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at TLSSocket.ondata (_stream_readable.js:719:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+    at TLSSocket.Readable.push (_stream_readable.js:214:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)
+[10/25/2020, 8:58:08 PM] [31merror[39m: MongoDB connection error
+[10/25/2020, 8:58:08 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:58:08 PM] [31merror[39m: CRITICAL - UNHANDLED REJECTION!
+[10/25/2020, 8:58:08 PM] [31merror[39m: ----------------------------
+[10/25/2020, 8:58:08 PM] [31merror[39m: MongoError: bad auth : Authentication failed.
+    at MessageStream.messageHandler (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\cmap\connection.js:268:20)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\heavydott\WebstormProjects\rsschool-node-js-rest\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at MessageStream.Writable.write (_stream_writable.js:318:11)
+    at TLSSocket.ondata (_stream_readable.js:719:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+    at readableAddChunk (_stream_readable.js:273:9)
+    at TLSSocket.Readable.push (_stream_readable.js:214:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23)
