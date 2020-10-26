@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-// const uuid = require('uuid');
 
 const User = new Schema(
   {
@@ -10,6 +9,16 @@ const User = new Schema(
   },
   { collection: 'users' }
 );
+
+const toResponse = user => {
+  const { id, name, login } = user;
+  return { id, name, login };
+};
+
+module.exports = {
+  User: mongoose.model('users', User),
+  toResponse
+};
 
 /* class UserC {
   constructor({
@@ -33,5 +42,3 @@ const User = new Schema(
     return new User(body);
   }
 }*/
-
-module.exports = mongoose.model('users', User);
