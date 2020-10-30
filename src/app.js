@@ -6,9 +6,11 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const helmet = require('helmet');
 
+const loginRouter = require('./resources/login/login.router');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
+const { checkToken } = require('./utils/check-auth');
 
 const { errorHandler } = require('./utils/error-handling');
 const { infoLog } = require('./utils/logging');
@@ -44,6 +46,10 @@ app.use('/', (req, res, next) => {
 
 // unhandledRejection
 // Promise.reject(Error('Oops!'));
+
+app.use('/login', loginRouter);
+
+app.use(checkToken);
 
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);

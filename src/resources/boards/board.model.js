@@ -31,22 +31,3 @@ module.exports = {
   Board: mongoose.model('boards', Board),
   toResponse
 };
-
-/*
-class BoardC {
-  constructor({ id = uuid(), title = 'Board', columns = [] } = {}) {
-    this.id = id;
-    this.title = title;
-    this.columns = columns.map(column => new Column(column));
-  }
-
-  static toResponse(board) {
-    const { id, title, columns } = board;
-    return { id, title, columns };
-  }
-
-  static fromRequest(body) {
-    return new Board(body);
-  }
-}
-*/
