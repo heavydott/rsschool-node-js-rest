@@ -16,8 +16,6 @@ const get = async id => {
   return user;
 };
 
-const getForAuth = async (login, password) => User.findOne({ login, password });
-
 const remove = async id => {
   const user = await User.findByIdAndDelete(id);
   if (!user) {
@@ -30,10 +28,6 @@ const remove = async id => {
 };
 
 const save = async user => await User.create(user);
-// const save = async user => {
-//   await User.create(user);
-//   return user;
-// };
 
 const update = async (id, user) => {
   const updatedUser = await User.findByIdAndUpdate(id, user);
@@ -45,4 +39,4 @@ const update = async (id, user) => {
   return updatedUser;
 };
 
-module.exports = { getAll, get, getForAuth, remove, save, update };
+module.exports = { getAll, get, remove, save, update };

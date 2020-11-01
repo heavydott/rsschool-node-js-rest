@@ -27,7 +27,6 @@ router.route('/:id').delete(
 router.route('/').post(
   catchDecorator(async (req, res) => {
     const board = await boardsService.save(req.body);
-    console.log(board);
     res.status(200).send(toResponse(board));
   })
 );

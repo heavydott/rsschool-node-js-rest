@@ -1,13 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-// const Column = require('./column.model');
-
-/*
-Column = new Schema({
-  title: String,
-  order: Number
-});
-*/
 
 const Board = new Schema(
   {

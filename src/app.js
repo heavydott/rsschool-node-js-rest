@@ -10,7 +10,7 @@ const loginRouter = require('./resources/login/login.router');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
-const { checkToken } = require('./utils/check-auth');
+const { authVerify } = require('./utils/auth-check');
 
 const { errorHandler } = require('./utils/error-handling');
 const { infoLog } = require('./utils/logging');
@@ -49,7 +49,7 @@ app.use('/', (req, res, next) => {
 
 app.use('/login', loginRouter);
 
-app.use(checkToken);
+app.use(authVerify);
 
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
