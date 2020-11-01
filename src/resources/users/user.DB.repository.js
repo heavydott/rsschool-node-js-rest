@@ -7,6 +7,7 @@ const getAll = async () => User.find({});
 
 const get = async id => {
   const user = await User.findById(id);
+  console.log(user);
   if (!user) {
     throw new CustomRestError({
       message: `There is no ${ENTITY_NAME}, Entity ID: ${id}`
@@ -26,7 +27,7 @@ const remove = async id => {
   return user;
 };
 
-const save = async user => User.create(user);
+const save = async user => await User.create(user);
 
 const update = async (id, user) => {
   const updatedUser = await User.findByIdAndUpdate(id, user);

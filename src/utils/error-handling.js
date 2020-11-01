@@ -7,7 +7,6 @@ const { errorLog } = require('./logging');
 const { CustomRestError } = require('../errors/not-found-error');
 
 const errorHandler = async (err, req, res, next) => {
-  console.log(err);
   switch (true) {
     case err instanceof CustomRestError: {
       const status = err.status;

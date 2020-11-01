@@ -26,7 +26,9 @@ router.route('/:id').delete(
 
 router.route('/').post(
   catchDecorator(async (req, res) => {
+    console.log(req.body);
     const user = await usersService.save(req.body);
+    console.log(user);
     res.status(200).send(toResponse(user));
   })
 );
